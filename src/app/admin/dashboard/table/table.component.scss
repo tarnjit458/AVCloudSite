@@ -1,0 +1,40 @@
+@import '~src/scss/variables';
+// .bg-color{
+//     background-color: $mysec;
+//     color: $white;
+//     text-emphasis-color: $white;
+// }
+th.mat-header-cell {
+    color: $white;
+    background-color: #2f666dd2;
+    font-size: large;
+  }
+  td.mat-cell{
+    color: $white;
+    background-color: #2f666df8;
+    font-size: medium;
+    height: 97px;
+    ;
+  }
+  mat-paginator{
+    color: $white;
+    background-color: #2f666df8;
+    ;
+  }
+  ::ng-deep .mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color: $white !important;
+   }
+  
+   ::ng-deep.mat-form-field-underline {
+    /*change color of underline*/
+    background-color: $white !important;
+  } 
+  
+  ::ng-deep.mat-form-field-ripple {
+   /*change color of underline when focused*/
+   background-color: $white !important;;
+  }
+  input{
+    width: 300px;
+  }

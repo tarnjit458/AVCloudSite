@@ -1,0 +1,23 @@
+@import '~src/scss/variables';
+.layout-container {
+
+  flex-direction: column;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #2f666dd2;
+  .sidenav-container {
+    flex: 1;
+    background: $main-background-color;
+    .sidenav {
+      padding: 12px;
+      width: 5px;
+      background: #2f666dd2;
+    }
+    .main-container {
+      padding: 16px;
+    }
+  }
+}
